@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+            Новости
+        </title>
+        <noscript>
+            Включите js!
+        </noscript>
+        <link rel="shortcut icon" href="/images/favicon.png" type="image/x-icon">
+        <script crossorigin src="https://unpkg.com/react@17/umd/react.production.min.js"></script>
+        <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.production.min.js"></script>
+        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <link rel="stylesheet" href="src/css/styles.css?ver=1" type="text/css">
+    </head>
+    <body>
+        <div class="root" id="root">
+            <div class="root_header" id="root_header">
+                <header class="root_header">
+                    <div class="text_header" id="text_header">
+                        <script type="text/babel" src="src/components/header.jsx"></script>
+                        <script type="text/babel">
+                            ReactDOM.render(
+                                <Header />,
+                                document.getElementById("text_header")
+                            )
+                        </script>
+                    </div>
+                    <div class="time_header" id="time_header">
+                        <script type="text/babel" src="src/components/time.jsx"></script>
+                        <script type="text/babel">
+                            ReactDOM.render(
+                                <Clock />,
+                                document.getElementById("time_header")
+                            )
+                        </script>
+                    </div>
+                </header>
+                <div class="navigation_header" id="navigation_header">
+                    <script type="text/babel" src="src/components/navigation.jsx"></script>
+                </div>
+            </div>
+            <div class="root_content" id="root_content">
+                <div class="content_content" id="content_content">
+                    <script type="text/babel" src="src/components/content.jsx"></script>
+                    <script type="text/babel">
+                        ReactDOM.render(
+                            <Content />,
+                            document.getElementById("content_content")
+                        )
+                    </script>
+                </div>
+            </div>
+            <div class="root_footer" id="root_footer">
+                <div class="footer_footer" id="footer_footer">
+                    <script type="text/babel" src="src/components/footer.jsx"></script>
+                    <script type="text/babel">
+                        ReactDOM.render(
+                            <Footer />,
+                            document.getElementById("footer_footer")
+                        )
+                    </script>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+    
