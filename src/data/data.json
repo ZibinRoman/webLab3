@@ -1,0 +1,34 @@
+{
+    "data_news":[
+        {
+            "id": 0,
+            "title": "Новость 0",
+            "picture": "image/news_0.png",
+            "news": "Сама новость 0"
+        },
+        {
+            "id": 1,
+            "title": "Новость 1",
+            "picture": "image/news_1.png",
+            "news": "Сама новость 1"
+        },
+        {
+            "id": 2,
+            "title": "Новость 2",
+            "picture": "image/news_2.png",
+            "news": "Сама новость 2"
+        },
+        {
+            "id": 3,
+            "title": "Новость 3",
+            "picture": "image/news_3.png",
+            "news": "Сама новость 3"
+        },
+        {
+            "id": 4,
+            "title": "Новость 4",
+            "picture": "image/news_4.png",
+            "news": "Сама новость 4"
+        }
+    ]
+}
