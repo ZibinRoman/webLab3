@@ -1,0 +1,153 @@
+body {
+	color: #8f8f8f;
+	background-color: #f8f8f8;
+	margin: 0;
+}
+
+h1{
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 16px;
+}
+
+p{
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 14px;
+}
+
+a{
+    line-height: 30px;
+    font-family: "-apple-system",BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;
+    background-color: transparent;
+    text-decoration: none;
+    font-size: 14px;
+    color: #222;
+}
+
+div.root {
+	margin: auto;
+}
+header.root_header {
+	padding: 20px 0;
+	background-color: #303b44;
+}
+
+header.root_header h1{
+    font-family: Arial, sans-serif;
+    color: #99DDFF;
+    text-align: center;
+    font-size: 16px;
+}
+
+div.navigation a {
+	text-decoration: none;
+}
+
+div.navigation ul {
+	margin: 0;
+	padding: 0;
+	background: #fff;
+	border-bottom: 1px solid #d5dddf;
+}
+
+div.navigation li {
+	list-style-position: inside;
+}
+
+.navigation_menu li {
+	display: inline-block;
+	padding: 10px 30px;
+	margin: 0;
+}
+
+.navigation_menu li.active {
+	background: #29c5e6;
+	color: #fff;
+}
+
+.navigation_menu a {
+	color: #99DDFF;
+}
+
+div.root_content {
+	background: #f9f9f9;
+	color: #000;
+	font-size: 14px;
+}
+
+div.footer_cell {
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+	padding-right: 15px;
+	width: 400px;
+}
+
+div.root_footer {
+	background: #edeeef;
+	color: #dbdbdb;
+	border-bottom: 1px solid #d5dddf;
+	margin: auto;
+	padding: 10px 0;
+	height: 100px;
+}
+
+div.footer_cell h1{
+	color: #4d7284;
+	border-bottom: 1px solid #919191;
+	margin: 0 0 10px 0;
+	text-align: justify;
+}
+
+div.footer_cell p{
+	color: #4d7284;
+	margin: 0 0 10px 0;
+	padding-right: 15px;
+	text-align: justify;
+}
+
+ul.content_ul{
+    list-style-type: none;
+}
+
+div.content{
+    padding-right: 36px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    align-items: start;
+    justify-content: start;
+    grid-template-rows: 100%;
+    height: 100%;
+    line-height: 1.25;
+    vertical-align: top;
+    padding-left: 36px;
+    max-height: 999999px;
+    word-wrap: break-word;
+    word-break: break-word;
+}
+
+div.content_data{
+    box-sizing: border-box;
+    max-width: 100%;
+    max-height: 100%;
+    line-height: 1.25;
+    min-width: 100%;
+    min-height: 100%;
+}
+div.content_button{
+    padding-right: 36px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    grid-template-rows: 100%;
+    height: 100%;
+    line-height: 1.25;
+    padding-left: 36px;
+    max-height: 999999px;
+    white-space: nowrap;
+    word-wrap: break-word;
+    word-break: break-word
+}
+img.content_picture{
+
+}
